@@ -86,7 +86,7 @@ client.on("messageCreate", (msg) => {
             break;
 
             case("addmember"):
-                if(args.length < 2){
+                if(args.length > 2){
 					sendMessage(msg.channel, `Please use \`\`${prefix}addmember [user]\`\``, globalsec);
                     return;
                 }
@@ -118,7 +118,7 @@ client.on("messageCreate", (msg) => {
             break;
 
             case("kickmember"):
-                if(args.length < 2){
+                if(args.length > 2){
 					sendMessage(msg.channel, `Please use \`\`${prefix}kickmember [user]\`\``, globalsec);
                     return;
                 }
