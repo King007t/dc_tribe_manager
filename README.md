@@ -4,7 +4,7 @@ simple discord role manager for ark survival evolved
 ## Requirements
 You need NodeJS and NPM installed.
 
-This bot is meant for usage with CrossArkChat (https://github.com/spikeydragoon/Cross-Ark-Chat.git) by allowing the tribe leaders to give the access role for the discord tribe chat to any user without requirering to ask an administrator. Altough it can be used otherwise, as this bots only purpose is to give a user with a leader role the ability to assign a specific role to any member with out the need of any server side permissions!
+This bot is meant for usage with CrossArkChat (https://github.com/spikeydragoon/Cross-Ark-Chat.git) by allowing the tribe leaders to assign the access role for a discord text channel with the tribe logs to any user without requirering to ask an administrator. Altough it can be used otherwise, as this bots only purpose is to give a user with a leader role the ability to assign a specific role to any member with out the need of any server side permissions!
 
 # Installation
 1 Start by cloning the repository and installing the packages
