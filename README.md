@@ -29,7 +29,7 @@ Your config file (config.json) will look something like this:
 ```
 node main.js
 ```
-**OR** Make the bot run in the background and on sytem startup by creating a sytemd service
+**OR** Make the bot run in the background and on system startup by creating a systemd service
 
 Step 1: Create a new systemd service for dc_tribe_manager
 ```
